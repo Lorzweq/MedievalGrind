@@ -1,0 +1,43 @@
+[
+	{
+		"id": "order_daily_1",
+		"tier": "normal",
+		"refreshType": "daily",
+		"requirements": [{ "itemId": "bread_loaf", "qty": 2 }],
+		"rewards": [
+			{ "type": "coin", "qty": 15 },
+			{ "type": "xp", "qty": 25 }
+		]
+	},
+	{
+		"id": "order_daily_2",
+		"tier": "normal",
+		"refreshType": "daily",
+		"requirements": [{ "itemId": "iron_ingot", "qty": 1 }],
+		"rewards": [
+			{ "type": "coin", "qty": 18 },
+			{ "type": "xp", "qty": 20 }
+		]
+	},
+	{
+		"id": "order_daily_3",
+		"tier": "normal",
+		"refreshType": "daily",
+		"requirements": [{ "itemId": "wood_log", "qty": 4 }],
+		"rewards": [
+			{ "type": "coin", "qty": 10 },
+			{ "type": "xp", "qty": 15 }
+		]
+	},
+	{
+		"id": "order_royal_1",
+		"tier": "royal",
+		"refreshType": "daily",
+		"requirements": [{ "itemId": "iron_nails", "qty": 1 }],
+		"rewards": [
+			{ "type": "coin", "qty": 40 },
+			{ "type": "xp", "qty": 60 },
+			{ "type": "item", "itemId": "blueprint_scrap", "qty": 1 }
+		]
+	}
+]

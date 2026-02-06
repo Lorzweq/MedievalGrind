@@ -1,0 +1,568 @@
+[
+	{
+		"id": "archer_squad",
+		"name": "Elven Archer Squad",
+		"level": 2,
+		"icon": "🏹",
+		"rarity": "common",
+		"encounterWeight": 90,
+		"isArmy": true,
+		"units": [
+			{ "type": "elf_archer", "count": 8, "role": "ranged", "hp": 45, "attack": 10, "defense": 4, "speed": 14 }
+		],
+		"drops": [
+			{ "itemId": "wood_log", "min": 2, "max": 4, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 30, "max": 50 }
+	},
+	{
+		"id": "melee_warriors",
+		"name": "Barbarian Warband",
+		"level": 2,
+		"icon": "🪓",
+		"rarity": "common",
+		"encounterWeight": 90,
+		"isArmy": true,
+		"units": [
+			{ "type": "barbarian", "count": 7, "role": "melee", "hp": 70, "attack": 12, "defense": 7, "speed": 9 }
+		],
+		"drops": [
+			{ "itemId": "scrap_cloth", "min": 1, "max": 3, "chance": 0.7, "rarity": "common" }
+		],
+		"goldDrop": { "min": 25, "max": 45 }
+	},
+	{
+		"id": "heavy_knights",
+		"name": "Knight Order",
+		"level": 4,
+		"icon": "🛡️",
+		"rarity": "uncommon",
+		"encounterWeight": 60,
+		"isArmy": true,
+		"units": [
+			{ "type": "knight", "count": 5, "role": "heavy", "hp": 130, "attack": 16, "defense": 18, "speed": 7 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 2, "max": 5, "chance": 0.9, "rarity": "common" }
+		],
+		"goldDrop": { "min": 60, "max": 100 }
+	},
+	{
+		"id": "goblin_scouts",
+		"name": "Goblin Scouts",
+		"level": 1,
+		"icon": "👺",
+		"rarity": "common",
+		"encounterWeight": 100,
+		"isArmy": true,
+		"units": [
+			{ "type": "goblin_scout", "count": 4, "role": "ranged", "hp": 40, "attack": 8, "defense": 3, "speed": 14 },
+			{ "type": "goblin_warrior", "count": 2, "role": "melee", "hp": 60, "attack": 10, "defense": 6, "speed": 10 }
+		],
+		"drops": [
+			{ "itemId": "wood_log", "min": 2, "max": 4, "chance": 0.7, "rarity": "common" }
+		],
+		"goldDrop": { "min": 20, "max": 45 }
+	},
+	{
+		"id": "crossbow_militia",
+		"name": "Crossbow Militia",
+		"level": 3,
+		"icon": "🎯",
+		"rarity": "common",
+		"encounterWeight": 80,
+		"isArmy": true,
+		"units": [
+			{ "type": "crossbowman", "count": 6, "role": "ranged", "hp": 50, "attack": 11, "defense": 5, "speed": 10 },
+			{ "type": "militiaman", "count": 2, "role": "melee", "hp": 65, "attack": 9, "defense": 8, "speed": 8 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 1, "max": 3, "chance": 0.6, "rarity": "common" }
+		],
+		"goldDrop": { "min": 35, "max": 65 }
+	},
+	{
+		"id": "pikemen_formation",
+		"name": "Pikemen Formation",
+		"level": 3,
+		"icon": "⚔️",
+		"rarity": "common",
+		"encounterWeight": 75,
+		"isArmy": true,
+		"units": [
+			{ "type": "pikeman", "count": 8, "role": "melee", "hp": 75, "attack": 11, "defense": 10, "speed": 7 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 2, "max": 4, "chance": 0.7, "rarity": "common" }
+		],
+		"goldDrop": { "min": 40, "max": 70 }
+	},
+	{
+		"id": "wolf_pack",
+		"name": "Wolf Pack",
+		"level": 1,
+		"icon": "🐺",
+		"rarity": "common",
+		"encounterWeight": 100,
+		"isArmy": true,
+		"units": [
+			{ "type": "grey_wolf", "count": 5, "role": "melee", "hp": 50, "attack": 10, "defense": 5, "speed": 13 },
+			{ "type": "dire_wolf", "count": 2, "role": "heavy", "hp": 80, "attack": 14, "defense": 8, "speed": 11 }
+		],
+		"drops": [
+			{ "itemId": "scrap_cloth", "min": 1, "max": 2, "chance": 0.4, "rarity": "common" }
+		],
+		"goldDrop": { "min": 15, "max": 35 }
+	},
+	{
+		"id": "bandit_gang",
+		"name": "Bandit Gang",
+		"level": 2,
+		"icon": "🗡️",
+		"rarity": "common",
+		"encounterWeight": 90,
+		"isArmy": true,
+		"units": [
+			{ "type": "bandit_archer", "count": 3, "role": "ranged", "hp": 45, "attack": 9, "defense": 4, "speed": 11 },
+			{ "type": "bandit_thug", "count": 4, "role": "melee", "hp": 65, "attack": 11, "defense": 6, "speed": 9 }
+		],
+		"drops": [
+			{ "itemId": "scrap_cloth", "min": 1, "max": 3, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 25, "max": 50 }
+	},
+	{
+		"id": "cavalry_charge",
+		"name": "Cavalry Squadron",
+		"level": 5,
+		"icon": "🐴",
+		"rarity": "uncommon",
+		"encounterWeight": 50,
+		"isArmy": true,
+		"units": [
+			{ "type": "light_cavalry", "count": 4, "role": "melee", "hp": 90, "attack": 15, "defense": 9, "speed": 16 },
+			{ "type": "heavy_cavalry", "count": 2, "role": "heavy", "hp": 140, "attack": 19, "defense": 15, "speed": 12 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 3, "max": 5, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 70, "max": 120 }
+	},
+	{
+		"id": "swordsmen_unit",
+		"name": "Swordsmen Unit",
+		"level": 3,
+		"icon": "🗡️",
+		"rarity": "common",
+		"encounterWeight": 80,
+		"isArmy": true,
+		"units": [
+			{ "type": "swordsman", "count": 7, "role": "melee", "hp": 80, "attack": 13, "defense": 9, "speed": 10 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 2, "max": 4, "chance": 0.7, "rarity": "common" }
+		],
+		"goldDrop": { "min": 40, "max": 75 }
+	},
+	{
+		"id": "orc_raid",
+		"name": "Orc Raiding Party",
+		"level": 4,
+		"icon": "🧟",
+		"rarity": "common",
+		"encounterWeight": 70,
+		"isArmy": true,
+		"units": [
+			{ "type": "orc_archer", "count": 3, "role": "ranged", "hp": 55, "attack": 11, "defense": 5, "speed": 11 },
+			{ "type": "orc_warrior", "count": 5, "role": "melee", "hp": 90, "attack": 15, "defense": 9, "speed": 8 },
+			{ "type": "orc_brute", "count": 2, "role": "heavy", "hp": 130, "attack": 19, "defense": 13, "speed": 6 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 2, "max": 4, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 50, "max": 90 }
+	},
+	{
+		"id": "forest_rangers",
+		"name": "Forest Rangers",
+		"level": 4,
+		"icon": "🌲",
+		"rarity": "uncommon",
+		"encounterWeight": 60,
+		"isArmy": true,
+		"units": [
+			{ "type": "ranger", "count": 6, "role": "ranged", "hp": 60, "attack": 12, "defense": 6, "speed": 13 },
+			{ "type": "tracker", "count": 2, "role": "melee", "hp": 75, "attack": 11, "defense": 8, "speed": 12 }
+		],
+		"drops": [
+			{ "itemId": "wood_log", "min": 3, "max": 6, "chance": 0.9, "rarity": "common" }
+		],
+		"goldDrop": { "min": 50, "max": 100 }
+	},
+	{
+		"id": "shield_wall",
+		"name": "Shield Wall Legion",
+		"level": 5,
+		"icon": "🛡️",
+		"rarity": "uncommon",
+		"encounterWeight": 50,
+		"isArmy": true,
+		"units": [
+			{ "type": "shield_bearer", "count": 8, "role": "heavy", "hp": 120, "attack": 12, "defense": 20, "speed": 6 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 3, "max": 6, "chance": 0.85, "rarity": "common" }
+		],
+		"goldDrop": { "min": 60, "max": 110 }
+	},
+	{
+		"id": "berserkers",
+		"name": "Berserker Horde",
+		"level": 5,
+		"icon": "⚔️",
+		"rarity": "uncommon",
+		"encounterWeight": 45,
+		"isArmy": true,
+		"units": [
+			{ "type": "berserker", "count": 6, "role": "melee", "hp": 95, "attack": 18, "defense": 6, "speed": 11 }
+		],
+		"drops": [
+			{ "itemId": "scrap_cloth", "min": 2, "max": 4, "chance": 0.7, "rarity": "common" }
+		],
+		"goldDrop": { "min": 55, "max": 105 }
+	},
+	{
+		"id": "dark_army",
+		"name": "Dark Knight's Legion",
+		"level": 6,
+		"icon": "⚔️",
+		"rarity": "rare",
+		"encounterWeight": 30,
+		"isArmy": true,
+		"units": [
+			{ "type": "dark_archer", "count": 3, "role": "ranged", "hp": 75, "attack": 14, "defense": 9, "speed": 11 },
+			{ "type": "dark_swordsman", "count": 5, "role": "melee", "hp": 115, "attack": 17, "defense": 15, "speed": 10 },
+			{ "type": "dark_knight", "count": 2, "role": "heavy", "hp": 170, "attack": 23, "defense": 19, "speed": 8 }
+		],
+		"drops": [
+			{ "itemId": "iron_ingot", "min": 1, "max": 3, "chance": 0.5, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 100, "max": 200 }
+	},
+	{
+		"id": "skeleton_army",
+		"name": "Skeleton Legion",
+		"level": 5,
+		"icon": "💀",
+		"rarity": "uncommon",
+		"encounterWeight": 40,
+		"isArmy": true,
+		"units": [
+			{ "type": "skeleton_archer", "count": 4, "role": "ranged", "hp": 60, "attack": 11, "defense": 7, "speed": 9 },
+			{ "type": "skeleton_warrior", "count": 6, "role": "melee", "hp": 95, "attack": 13, "defense": 9, "speed": 8 }
+		],
+		"drops": [
+			{ "itemId": "stone", "min": 3, "max": 6, "chance": 0.9, "rarity": "common" }
+		],
+		"goldDrop": { "min": 50, "max": 120 }
+	},
+	{
+		"id": "necro_swarm",
+		"name": "Necromancer's Swarm",
+		"level": 7,
+		"icon": "🧙",
+		"rarity": "rare",
+		"encounterWeight": 25,
+		"isArmy": true,
+		"units": [
+			{ "type": "zombie", "count": 8, "role": "melee", "hp": 100, "attack": 12, "defense": 8, "speed": 5 },
+			{ "type": "necromancer", "count": 1, "role": "support", "hp": 80, "attack": 18, "defense": 10, "speed": 9 }
+		],
+		"drops": [
+			{ "itemId": "blue_herb", "min": 1, "max": 3, "chance": 0.6, "rarity": "uncommon" }
+		],
+		"goldDrop": { "min": 90, "max": 150 }
+	},
+	{
+		"id": "mountain_giants",
+		"name": "Mountain Giants",
+		"level": 8,
+		"icon": "🗿",
+		"rarity": "rare",
+		"encounterWeight": 20,
+		"isArmy": true,
+		"units": [
+			{ "type": "stone_giant", "count": 3, "role": "heavy", "hp": 200, "attack": 25, "defense": 22, "speed": 5 },
+			{ "type": "boulder_thrower", "count": 2, "role": "ranged", "hp": 140, "attack": 20, "defense": 16, "speed": 7 }
+		],
+		"drops": [
+			{ "itemId": "stone", "min": 5, "max": 10, "chance": 1.0, "rarity": "common" }
+		],
+		"goldDrop": { "min": 120, "max": 200 }
+	},
+	{
+		"id": "assassin_guild",
+		"name": "Assassin's Guild",
+		"level": 6,
+		"icon": "🗡️",
+		"rarity": "rare",
+		"encounterWeight": 30,
+		"isArmy": true,
+		"units": [
+			{ "type": "assassin", "count": 5, "role": "melee", "hp": 70, "attack": 20, "defense": 8, "speed": 18 },
+			{ "type": "poisoner", "count": 2, "role": "support", "hp": 55, "attack": 15, "defense": 6, "speed": 15 }
+		],
+		"drops": [
+			{ "itemId": "blueprint_scrap", "min": 1, "max": 2, "chance": 0.4, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 80, "max": 140 }
+	},
+	{
+		"id": "temple_guards",
+		"name": "Temple Guardians",
+		"level": 7,
+		"icon": "⛪",
+		"rarity": "rare",
+		"encounterWeight": 25,
+		"isArmy": true,
+		"units": [
+			{ "type": "paladin", "count": 4, "role": "heavy", "hp": 150, "attack": 18, "defense": 20, "speed": 8 },
+			{ "type": "priest", "count": 2, "role": "support", "hp": 70, "attack": 12, "defense": 10, "speed": 9 }
+		],
+		"drops": [
+			{ "itemId": "iron_ingot", "min": 2, "max": 4, "chance": 0.6, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 100, "max": 170 }
+	},
+	{
+		"id": "dwarven_miners",
+		"name": "Dwarven War Miners",
+		"level": 5,
+		"icon": "⛏️",
+		"rarity": "uncommon",
+		"encounterWeight": 50,
+		"isArmy": true,
+		"units": [
+			{ "type": "dwarf_warrior", "count": 6, "role": "melee", "hp": 110, "attack": 14, "defense": 16, "speed": 6 },
+			{ "type": "dwarf_miner", "count": 3, "role": "heavy", "hp": 100, "attack": 13, "defense": 18, "speed": 5 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 4, "max": 7, "chance": 0.95, "rarity": "common" }
+		],
+		"goldDrop": { "min": 70, "max": 130 }
+	},
+	{
+		"id": "tribal_hunters",
+		"name": "Tribal Hunters",
+		"level": 3,
+		"icon": "🏹",
+		"rarity": "common",
+		"encounterWeight": 75,
+		"isArmy": true,
+		"units": [
+			{ "type": "hunter", "count": 7, "role": "ranged", "hp": 55, "attack": 10, "defense": 5, "speed": 13 },
+			{ "type": "spearman", "count": 3, "role": "melee", "hp": 70, "attack": 11, "defense": 7, "speed": 9 }
+		],
+		"drops": [
+			{ "itemId": "wood_log", "min": 2, "max": 5, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 35, "max": 70 }
+	},
+	{
+		"id": "ice_warriors",
+		"name": "Frost Warriors",
+		"level": 6,
+		"icon": "❄️",
+		"rarity": "rare",
+		"encounterWeight": 30,
+		"isArmy": true,
+		"units": [
+			{ "type": "frost_archer", "count": 4, "role": "ranged", "hp": 80, "attack": 14, "defense": 10, "speed": 10 },
+			{ "type": "ice_knight", "count": 3, "role": "heavy", "hp": 160, "attack": 19, "defense": 18, "speed": 7 }
+		],
+		"drops": [
+			{ "itemId": "blue_herb", "min": 2, "max": 4, "chance": 0.7, "rarity": "uncommon" }
+		],
+		"goldDrop": { "min": 90, "max": 160 }
+	},
+	{
+		"id": "demon_horde",
+		"name": "Demon Horde",
+		"level": 8,
+		"icon": "👹",
+		"rarity": "rare",
+		"encounterWeight": 15,
+		"isArmy": true,
+		"units": [
+			{ "type": "imp", "count": 6, "role": "ranged", "hp": 65, "attack": 13, "defense": 7, "speed": 14 },
+			{ "type": "demon_warrior", "count": 4, "role": "melee", "hp": 130, "attack": 20, "defense": 12, "speed": 11 },
+			{ "type": "pit_fiend", "count": 1, "role": "heavy", "hp": 220, "attack": 28, "defense": 20, "speed": 9 }
+		],
+		"drops": [
+			{ "itemId": "blueprint_scrap", "min": 2, "max": 4, "chance": 0.5, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 140, "max": 250 }
+	},
+	{
+		"id": "swamp_creatures",
+		"name": "Swamp Lurkers",
+		"level": 4,
+		"icon": "🐸",
+		"rarity": "uncommon",
+		"encounterWeight": 55,
+		"isArmy": true,
+		"units": [
+			{ "type": "bog_creature", "count": 7, "role": "melee", "hp": 85, "attack": 12, "defense": 10, "speed": 8 },
+			{ "type": "poison_spitter", "count": 3, "role": "ranged", "hp": 60, "attack": 11, "defense": 6, "speed": 10 }
+		],
+		"drops": [
+			{ "itemId": "blue_herb", "min": 1, "max": 2, "chance": 0.5, "rarity": "uncommon" }
+		],
+		"goldDrop": { "min": 45, "max": 85 }
+	},
+	{
+		"id": "pirate_crew",
+		"name": "Pirate Crew",
+		"level": 5,
+		"icon": "🏴‍☠️",
+		"rarity": "uncommon",
+		"encounterWeight": 45,
+		"isArmy": true,
+		"units": [
+			{ "type": "pirate_gunner", "count": 4, "role": "ranged", "hp": 70, "attack": 13, "defense": 7, "speed": 11 },
+			{ "type": "pirate_cutthroat", "count": 5, "role": "melee", "hp": 80, "attack": 14, "defense": 9, "speed": 12 },
+			{ "type": "pirate_captain", "count": 1, "role": "support", "hp": 100, "attack": 16, "defense": 12, "speed": 10 }
+		],
+		"drops": [
+			{ "itemId": "scrap_cloth", "min": 2, "max": 5, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 80, "max": 150 }
+	},
+	{
+		"id": "nomad_riders",
+		"name": "Nomad Horse Archers",
+		"level": 4,
+		"icon": "🏇",
+		"rarity": "uncommon",
+		"encounterWeight": 60,
+		"isArmy": true,
+		"units": [
+			{ "type": "horse_archer", "count": 8, "role": "ranged", "hp": 65, "attack": 12, "defense": 6, "speed": 15 }
+		],
+		"drops": [
+			{ "itemId": "wood_log", "min": 2, "max": 4, "chance": 0.7, "rarity": "common" }
+		],
+		"goldDrop": { "min": 55, "max": 95 }
+	},
+	{
+		"id": "siege_engineers",
+		"name": "Siege Engineers",
+		"level": 7,
+		"icon": "🏗️",
+		"rarity": "rare",
+		"encounterWeight": 20,
+		"isArmy": true,
+		"units": [
+			{ "type": "engineer", "count": 3, "role": "support", "hp": 80, "attack": 10, "defense": 12, "speed": 7 },
+			{ "type": "catapult_crew", "count": 4, "role": "ranged", "hp": 90, "attack": 22, "defense": 10, "speed": 5 },
+			{ "type": "guard", "count": 3, "role": "melee", "hp": 100, "attack": 14, "defense": 14, "speed": 8 }
+		],
+		"drops": [
+			{ "itemId": "blueprint_scrap", "min": 2, "max": 3, "chance": 0.6, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 100, "max": 180 }
+	},
+	{
+		"id": "fire_cultists",
+		"name": "Fire Cult",
+		"level": 6,
+		"icon": "🔥",
+		"rarity": "rare",
+		"encounterWeight": 30,
+		"isArmy": true,
+		"units": [
+			{ "type": "fire_mage", "count": 3, "role": "ranged", "hp": 70, "attack": 18, "defense": 8, "speed": 10 },
+			{ "type": "cultist", "count": 6, "role": "melee", "hp": 75, "attack": 13, "defense": 9, "speed": 9 },
+			{ "type": "high_priest", "count": 1, "role": "support", "hp": 90, "attack": 16, "defense": 12, "speed": 8 }
+		],
+		"drops": [
+			{ "itemId": "blue_herb", "min": 2, "max": 3, "chance": 0.6, "rarity": "uncommon" }
+		],
+		"goldDrop": { "min": 85, "max": 145 }
+	},
+	{
+		"id": "mercenary_band",
+		"name": "Mercenary Company",
+		"level": 5,
+		"icon": "💰",
+		"rarity": "uncommon",
+		"encounterWeight": 50,
+		"isArmy": true,
+		"units": [
+			{ "type": "crossbowman_merc", "count": 3, "role": "ranged", "hp": 75, "attack": 13, "defense": 8, "speed": 10 },
+			{ "type": "swordsman_merc", "count": 4, "role": "melee", "hp": 95, "attack": 15, "defense": 11, "speed": 10 },
+			{ "type": "knight_merc", "count": 2, "role": "heavy", "hp": 135, "attack": 17, "defense": 16, "speed": 8 }
+		],
+		"drops": [
+			{ "itemId": "iron_ore", "min": 3, "max": 5, "chance": 0.8, "rarity": "common" }
+		],
+		"goldDrop": { "min": 70, "max": 120 }
+	},
+	{
+		"id": "dragon_hoard",
+		"name": "Dragon Hoard Guard",
+		"level": 10,
+		"icon": "🐉",
+		"rarity": "legendary",
+		"encounterWeight": 2,
+		"isArmy": true,
+		"units": [
+			{ "type": "drake_archer", "count": 3, "role": "ranged", "hp": 100, "attack": 16, "defense": 12, "speed": 14 },
+			{ "type": "drake_warrior", "count": 5, "role": "melee", "hp": 150, "attack": 20, "defense": 16, "speed": 12 },
+			{ "type": "dragon_wyrmling", "count": 1, "role": "boss", "hp": 400, "attack": 35, "defense": 28, "speed": 16 }
+		],
+		"drops": [
+			{ "itemId": "iron_ingot", "min": 3, "max": 8, "chance": 0.8, "rarity": "rare" },
+			{ "itemId": "blueprint_scrap", "min": 3, "max": 6, "chance": 0.7, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 250, "max": 500 }
+	},
+	{
+		"id": "vampire_coven",
+		"name": "Vampire Coven",
+		"level": 9,
+		"icon": "🧛",
+		"rarity": "legendary",
+		"encounterWeight": 5,
+		"isArmy": true,
+		"units": [
+			{ "type": "vampire_spawn", "count": 5, "role": "melee", "hp": 110, "attack": 18, "defense": 13, "speed": 14 },
+			{ "type": "vampire_lord", "count": 2, "role": "heavy", "hp": 200, "attack": 26, "defense": 20, "speed": 13 },
+			{ "type": "blood_mage", "count": 1, "role": "support", "hp": 120, "attack": 22, "defense": 15, "speed": 11 }
+		],
+		"drops": [
+			{ "itemId": "blue_herb", "min": 3, "max": 5, "chance": 0.8, "rarity": "rare" },
+			{ "itemId": "blueprint_scrap", "min": 2, "max": 4, "chance": 0.6, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 200, "max": 400 }
+	},
+	{
+		"id": "angel_host",
+		"name": "Celestial Host",
+		"level": 9,
+		"icon": "👼",
+		"rarity": "legendary",
+		"encounterWeight": 3,
+		"isArmy": true,
+		"units": [
+			{ "type": "angel_archer", "count": 4, "role": "ranged", "hp": 110, "attack": 19, "defense": 14, "speed": 13 },
+			{ "type": "angel_warrior", "count": 4, "role": "melee", "hp": 140, "attack": 21, "defense": 18, "speed": 12 },
+			{ "type": "archangel", "count": 1, "role": "boss", "hp": 300, "attack": 30, "defense": 25, "speed": 15 }
+		],
+		"drops": [
+			{ "itemId": "iron_ingot", "min": 4, "max": 7, "chance": 0.9, "rarity": "rare" },
+			{ "itemId": "blueprint_scrap", "min": 3, "max": 5, "chance": 0.7, "rarity": "rare" }
+		],
+		"goldDrop": { "min": 220, "max": 450 }
+	}
+]

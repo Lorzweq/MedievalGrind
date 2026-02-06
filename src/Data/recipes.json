@@ -1,0 +1,542 @@
+[
+	{
+		"id": "recipe_iron_ingot",
+		"name": "Smelt Iron Ingot",
+		"buildingId": "blacksmith",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "iron_ore", "qty": 3 }],
+		"outputs": [{ "itemId": "iron_ingot", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_iron_nails",
+		"name": "Forge Iron Nails",
+		"buildingId": "blacksmith",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 1 }],
+		"outputs": [{ "itemId": "iron_nails", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_flour",
+		"name": "Mill Flour",
+		"buildingId": "bakery",
+		"timeSec": 300,
+		"inputs": [{ "itemId": "wood_log", "qty": 1 }],
+		"outputs": [{ "itemId": "flour_sack", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 6
+	},
+	{
+		"id": "recipe_bread",
+		"name": "Bake Bread",
+		"buildingId": "bakery",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "flour_sack", "qty": 1 }],
+		"outputs": [{ "itemId": "bread_loaf", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_planks",
+		"name": "Saw Wood Planks",
+		"buildingId": "carpenter",
+		"timeSec": 480,
+		"inputs": [{ "itemId": "wood_log", "qty": 2 }],
+		"outputs": [{ "itemId": "wood_log", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_stone_block",
+		"name": "Stone Block",
+		"buildingId": "carpenter",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "stone", "qty": 3 }],
+		"outputs": [{ "itemId": "stone", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_stitch_cloth",
+		"name": "Stitch Cloth",
+		"buildingId": "carpenter",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 2 }],
+		"outputs": [{ "itemId": "scrap_cloth", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 9
+	},
+	{
+		"id": "recipe_sharpened_stake",
+		"name": "Sharpened Stake",
+		"buildingId": "carpenter",
+		"timeSec": 420,
+		"inputs": [{ "itemId": "wood_log", "qty": 1 }, { "itemId": "iron_nails", "qty": 1 }],
+		"outputs": [{ "itemId": "wood_log", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 11
+	},
+	{
+		"id": "recipe_simple_tonic",
+		"name": "Brew Simple Tonic",
+		"buildingId": "alchemy",
+		"timeSec": 1200,
+		"inputs": [{ "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "blue_herb", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 18
+	},
+	{
+		"id": "recipe_jerky",
+		"name": "Wolf Jerky",
+		"buildingId": "bakery",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 1 }],
+		"outputs": [{ "itemId": "bread_loaf", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_padded_armor",
+		"name": "Sew Padded Armor",
+		"buildingId": "carpenter",
+		"timeSec": 480,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 6 }],
+		"outputs": [{ "itemId": "padded_armor", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_leather_armor",
+		"name": "Craft Leather Armor",
+		"buildingId": "carpenter",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 8 }, { "itemId": "wood_log", "qty": 3 }],
+		"outputs": [{ "itemId": "leather_armor", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_studded_leather",
+		"name": "Craft Studded Leather",
+		"buildingId": "carpenter",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 8 }, { "itemId": "iron_nails", "qty": 3 }],
+		"outputs": [{ "itemId": "studded_leather", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_ranger_cloak",
+		"name": "Sew Ranger Cloak",
+		"buildingId": "carpenter",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 7 }, { "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "ranger_cloak", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_padded_hood",
+		"name": "Sew Padded Hood",
+		"buildingId": "carpenter",
+		"timeSec": 360,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 3 }],
+		"outputs": [{ "itemId": "padded_hood", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 6
+	},
+	{
+		"id": "recipe_leather_cap",
+		"name": "Craft Leather Cap",
+		"buildingId": "carpenter",
+		"timeSec": 420,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 4 }, { "itemId": "wood_log", "qty": 2 }],
+		"outputs": [{ "itemId": "leather_cap", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 7
+	},
+	{
+		"id": "recipe_chain_shirt",
+		"name": "Forge Chain Shirt",
+		"buildingId": "blacksmith",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }],
+		"outputs": [{ "itemId": "chain_shirt", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_scale_armor",
+		"name": "Forge Scale Armor",
+		"buildingId": "blacksmith",
+		"timeSec": 1200,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 5 }, { "itemId": "iron_nails", "qty": 3 }],
+		"outputs": [{ "itemId": "scale_armor", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_iron_breastplate",
+		"name": "Forge Iron Breastplate",
+		"buildingId": "blacksmith",
+		"timeSec": 1500,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 6 }],
+		"outputs": [{ "itemId": "iron_breastplate", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 18
+	},
+	{
+		"id": "recipe_brigandine",
+		"name": "Forge Brigandine",
+		"buildingId": "blacksmith",
+		"timeSec": 1200,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "scrap_cloth", "qty": 5 }],
+		"outputs": [{ "itemId": "brigandine", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_lamellar_armor",
+		"name": "Forge Lamellar Armor",
+		"buildingId": "blacksmith",
+		"timeSec": 1500,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 5 }, { "itemId": "wood_log", "qty": 3 }],
+		"outputs": [{ "itemId": "lamellar_armor", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 18
+	},
+	{
+		"id": "recipe_knight_plate",
+		"name": "Forge Knight Plate",
+		"buildingId": "blacksmith",
+		"timeSec": 1800,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 7 }, { "itemId": "blueprint_scrap", "qty": 2 }],
+		"outputs": [{ "itemId": "knight_plate", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 24
+	},
+	{
+		"id": "recipe_royal_plate",
+		"name": "Forge Royal Plate",
+		"buildingId": "blacksmith",
+		"timeSec": 2100,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 9 }, { "itemId": "blueprint_scrap", "qty": 3 }],
+		"outputs": [{ "itemId": "royal_plate", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 28
+	},
+	{
+		"id": "recipe_forest_mail",
+		"name": "Forge Forest Mail",
+		"buildingId": "blacksmith",
+		"timeSec": 1200,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "scrap_cloth", "qty": 4 }],
+		"outputs": [{ "itemId": "forest_mail", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_berserker_harness",
+		"name": "Forge Berserker Harness",
+		"buildingId": "blacksmith",
+		"timeSec": 1500,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "berserker_harness", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 20
+	},
+	{
+		"id": "recipe_dragon_scale_armor",
+		"name": "Forge Dragon Scale Armor",
+		"buildingId": "blacksmith",
+		"timeSec": 2400,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 8 }, { "itemId": "blue_herb", "qty": 3 }, { "itemId": "blueprint_scrap", "qty": 3 }],
+		"outputs": [{ "itemId": "dragon_scale_armor", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 30
+	},
+	{
+		"id": "recipe_warden_armor",
+		"name": "Forge Warden Armor",
+		"buildingId": "blacksmith",
+		"timeSec": 1500,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 5 }, { "itemId": "stone", "qty": 5 }],
+		"outputs": [{ "itemId": "warden_armor", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 20
+	},
+	{
+		"id": "recipe_chain_coif",
+		"name": "Forge Chain Coif",
+		"buildingId": "blacksmith",
+		"timeSec": 420,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }],
+		"outputs": [{ "itemId": "chain_coif", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_iron_helm",
+		"name": "Forge Iron Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 540,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }],
+		"outputs": [{ "itemId": "iron_helm", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_steel_helm",
+		"name": "Forge Steel Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 660,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 5 }, { "itemId": "blueprint_scrap", "qty": 2 }],
+		"outputs": [{ "itemId": "steel_helm", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_great_helm",
+		"name": "Forge Great Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 780,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 6 }, { "itemId": "iron_nails", "qty": 3 }],
+		"outputs": [{ "itemId": "great_helm", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_visor_helm",
+		"name": "Forge Visor Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 780,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 5 }, { "itemId": "wood_log", "qty": 2 }],
+		"outputs": [{ "itemId": "visor_helm", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_winged_helm",
+		"name": "Forge Winged Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 840,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "winged_helm", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_horned_helm",
+		"name": "Forge Horned Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 840,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "wood_log", "qty": 3 }],
+		"outputs": [{ "itemId": "horned_helm", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_crowned_helm",
+		"name": "Forge Crowned Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 960,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 6 }, { "itemId": "blueprint_scrap", "qty": 2 }],
+		"outputs": [{ "itemId": "crowned_helm", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 18
+	},
+	{
+		"id": "recipe_sentinel_helm",
+		"name": "Forge Sentinel Helm",
+		"buildingId": "blacksmith",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 5 }, { "itemId": "stone", "qty": 3 }],
+		"outputs": [{ "itemId": "sentinel_helm", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_mystic_cowl",
+		"name": "Weave Mystic Cowl",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "scrap_cloth", "qty": 3 }, { "itemId": "blue_herb", "qty": 3 }],
+		"outputs": [{ "itemId": "mystic_cowl", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_ring_of_strength",
+		"name": "Craft Ring of Strength",
+		"buildingId": "alchemy",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_strength", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_ring_of_guard",
+		"name": "Craft Ring of Guard",
+		"buildingId": "alchemy",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "stone", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_guard", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_ring_of_vigor",
+		"name": "Craft Ring of Vigor",
+		"buildingId": "alchemy",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "scrap_cloth", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_vigor", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_ring_of_swiftness",
+		"name": "Craft Ring of Swiftness",
+		"buildingId": "alchemy",
+		"timeSec": 600,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "wood_log", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_swiftness", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 8
+	},
+	{
+		"id": "recipe_ring_of_precision",
+		"name": "Craft Ring of Precision",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "blueprint_scrap", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_precision", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_ring_of_bulwark",
+		"name": "Craft Ring of Bulwark",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "stone", "qty": 3 }],
+		"outputs": [{ "itemId": "ring_of_bulwark", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_ring_of_ember",
+		"name": "Craft Ring of Ember",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_ember", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_ring_of_mist",
+		"name": "Craft Ring of Mist",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "blue_herb", "qty": 3 }],
+		"outputs": [{ "itemId": "ring_of_mist", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_ring_of_lifebloom",
+		"name": "Craft Ring of Lifebloom",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "blue_herb", "qty": 4 }],
+		"outputs": [{ "itemId": "ring_of_lifebloom", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_ring_of_iron",
+		"name": "Craft Ring of Iron",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "iron_nails", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_iron", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_ring_of_rage",
+		"name": "Craft Ring of Rage",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "wood_log", "qty": 2 }],
+		"outputs": [{ "itemId": "ring_of_rage", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_ring_of_stoneskin",
+		"name": "Craft Ring of Stoneskin",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "stone", "qty": 4 }],
+		"outputs": [{ "itemId": "ring_of_stoneskin", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 14
+	},
+	{
+		"id": "recipe_necklace_of_valor",
+		"name": "Craft Necklace of Valor",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "scrap_cloth", "qty": 2 }],
+		"outputs": [{ "itemId": "necklace_of_valor", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_necklace_of_fortitude",
+		"name": "Craft Necklace of Fortitude",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "stone", "qty": 3 }],
+		"outputs": [{ "itemId": "necklace_of_fortitude", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_necklace_of_haste",
+		"name": "Craft Necklace of Haste",
+		"buildingId": "alchemy",
+		"timeSec": 720,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "wood_log", "qty": 3 }],
+		"outputs": [{ "itemId": "necklace_of_haste", "qty": 1, "qualityTier": "Normal" }],
+		"xp": 10
+	},
+	{
+		"id": "recipe_necklace_of_wisdom",
+		"name": "Craft Necklace of Wisdom",
+		"buildingId": "alchemy",
+		"timeSec": 780,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 2 }, { "itemId": "blue_herb", "qty": 3 }],
+		"outputs": [{ "itemId": "necklace_of_wisdom", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_necklace_of_guardian",
+		"name": "Craft Necklace of the Guardian",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "stone", "qty": 4 }],
+		"outputs": [{ "itemId": "necklace_of_guardian", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_necklace_of_berserk",
+		"name": "Craft Necklace of Berserk",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "blue_herb", "qty": 2 }],
+		"outputs": [{ "itemId": "necklace_of_berserk", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_necklace_of_shadows",
+		"name": "Craft Necklace of Shadows",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "blue_herb", "qty": 3 }],
+		"outputs": [{ "itemId": "necklace_of_shadows", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_amulet_of_iron",
+		"name": "Craft Amulet of Iron",
+		"buildingId": "alchemy",
+		"timeSec": 780,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 4 }, { "itemId": "iron_nails", "qty": 3 }],
+		"outputs": [{ "itemId": "amulet_of_iron", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_amulet_of_dawn",
+		"name": "Craft Amulet of Dawn",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "blueprint_scrap", "qty": 2 }],
+		"outputs": [{ "itemId": "amulet_of_dawn", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 16
+	},
+	{
+		"id": "recipe_amulet_of_thorns",
+		"name": "Craft Amulet of Thorns",
+		"buildingId": "alchemy",
+		"timeSec": 780,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "wood_log", "qty": 4 }],
+		"outputs": [{ "itemId": "amulet_of_thorns", "qty": 1, "qualityTier": "Fine" }],
+		"xp": 12
+	},
+	{
+		"id": "recipe_amulet_of_tides",
+		"name": "Craft Amulet of Tides",
+		"buildingId": "alchemy",
+		"timeSec": 900,
+		"inputs": [{ "itemId": "iron_ingot", "qty": 3 }, { "itemId": "blue_herb", "qty": 4 }],
+		"outputs": [{ "itemId": "amulet_of_tides", "qty": 1, "qualityTier": "Masterwork" }],
+		"xp": 16
+	}
+]

@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* Minimal, low-cost global styles */
+
+:root {
+	font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #2b2520;
+	background-color: #e9e0d4;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: #e9e0d4;
+	color: inherit;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+.app-header {
+	border-bottom: 1px solid #cdbfb1;
+	background: #e1d6c8;
+}
+
+section {
+	border: 1px solid #cdbfb1;
+	border-radius: 10px;
+	padding: 12px;
+	background: #f0e7dc;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+	padding: 6px 10px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+}
+
+nav a:hover {
+	border-color: #cdbfb1;
+	background: #e9dfd2;
+}
+
+button {
+	font: inherit;
+	padding: 6px 10px;
+	border-radius: 8px;
+	border: 1px solid #bfae9f;
+	background: #eadfd2;
+	color: #2b2520;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #e2d6c7;
+}
+
+button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+input,
+select,
+textarea {
+	font: inherit;
+	border: 1px solid #bfae9f;
+	border-radius: 6px;
+	padding: 6px 8px;
+	background: #f7f1e7;
+	color: inherit;
+}
+
+ul,
+ol {
+	padding-left: 18px;
+}

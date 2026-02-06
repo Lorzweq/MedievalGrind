@@ -1,0 +1,33 @@
+[
+	{
+		"id": "patrol_woods",
+		"name": "Woods Patrol",
+		"durationSec": 300,
+		"enemyPool": ["wolf", "slime"],
+		"rewards": [{ "itemId": "wood_log", "min": 1, "max": 2, "chance": 1 }],
+		"staminaCost": 0
+	},
+	{
+		"id": "run_ruins",
+		"name": "Ruins Run",
+		"durationSec": 1800,
+		"enemyPool": ["bandit", "slime"],
+		"rewards": [
+			{ "itemId": "iron_ore", "min": 1, "max": 2, "chance": 0.6 },
+			{ "itemId": "blueprint_scrap", "min": 1, "max": 1, "chance": 0.15 }
+		],
+		"staminaCost": 1
+	},
+	{
+		"id": "raid_barrow",
+		"name": "Barrow Raid",
+		"durationSec": 28800,
+		"enemyPool": ["bandit", "wolf"],
+		"rewards": [
+			{ "itemId": "iron_ore", "min": 2, "max": 4, "chance": 0.8 },
+			{ "itemId": "blue_herb", "min": 1, "max": 2, "chance": 0.4 },
+			{ "itemId": "blueprint_scrap", "min": 1, "max": 1, "chance": 0.25 }
+		],
+		"staminaCost": 1
+	}
+]

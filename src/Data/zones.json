@@ -1,0 +1,62 @@
+[
+  {
+    "id": "greenwood_outskirts",
+    "name": "Greenwood Outskirts",
+    "level": 1,
+    "description": "A tranquil forest clearing. Start your journey here.",
+    "expeditions": ["patrol_woods", "run_ruins"],
+    "unlocked": true,
+    "position": { "x": 0, "y": 0 },
+    "icon": "🌲"
+  },
+  {
+    "id": "shadow_caves",
+    "name": "Shadow Caves",
+    "level": 5,
+    "description": "Dark caverns filled with rare ores and dangerous creatures.",
+    "expeditions": ["raid_barrow"],
+    "unlocked": false,
+    "position": { "x": 1, "y": 0 },
+    "icon": "⛏️"
+  },
+  {
+    "id": "crystal_peaks",
+    "name": "Crystal Peaks",
+    "level": 10,
+    "description": "Towering mountains with glittering crystals and fierce foes.",
+    "expeditions": [],
+    "unlocked": false,
+    "position": { "x": 2, "y": 0 },
+    "icon": "💎"
+  },
+  {
+    "id": "mire_swamp",
+    "name": "Mire Swamp",
+    "level": 8,
+    "description": "A murky bog hiding ancient secrets and rare plants.",
+    "expeditions": [],
+    "unlocked": false,
+    "position": { "x": 0, "y": 1 },
+    "icon": "🪱"
+  },
+  {
+    "id": "sunken_temple",
+    "name": "Sunken Temple",
+    "level": 15,
+    "description": "Ruins of a forgotten civilization, rich with treasures.",
+    "expeditions": [],
+    "unlocked": false,
+    "position": { "x": 1, "y": 1 },
+    "icon": "🏛️"
+  },
+  {
+    "id": "dragon_spire",
+    "name": "Dragon Spire",
+    "level": 20,
+    "description": "The ultimate challenge. Face the ancient dragon.",
+    "expeditions": [],
+    "unlocked": false,
+    "position": { "x": 2, "y": 1 },
+    "icon": "🐉"
+  }
+]

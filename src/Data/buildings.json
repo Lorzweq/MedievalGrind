@@ -1,0 +1,87 @@
+[
+	{
+		"id": "blacksmith",
+		"name": "Blacksmith",
+		"queueSlots": 2,
+		"recipes": [
+			"recipe_iron_ingot",
+			"recipe_iron_nails",
+			"recipe_chain_shirt",
+			"recipe_scale_armor",
+			"recipe_iron_breastplate",
+			"recipe_brigandine",
+			"recipe_lamellar_armor",
+			"recipe_knight_plate",
+			"recipe_royal_plate",
+			"recipe_forest_mail",
+			"recipe_berserker_harness",
+			"recipe_dragon_scale_armor",
+			"recipe_warden_armor",
+			"recipe_chain_coif",
+			"recipe_iron_helm",
+			"recipe_steel_helm",
+			"recipe_great_helm",
+			"recipe_visor_helm",
+			"recipe_winged_helm",
+			"recipe_horned_helm",
+			"recipe_crowned_helm",
+			"recipe_sentinel_helm"
+		]
+	},
+	{
+		"id": "bakery",
+		"name": "Bakery",
+		"queueSlots": 2,
+		"recipes": ["recipe_flour", "recipe_bread", "recipe_jerky"]
+	},
+	{
+		"id": "carpenter",
+		"name": "Carpenter",
+		"queueSlots": 2,
+		"recipes": [
+			"recipe_planks",
+			"recipe_stone_block",
+			"recipe_stitch_cloth",
+			"recipe_sharpened_stake",
+			"recipe_padded_armor",
+			"recipe_leather_armor",
+			"recipe_studded_leather",
+			"recipe_ranger_cloak",
+			"recipe_padded_hood",
+			"recipe_leather_cap"
+		]
+	},
+	{
+		"id": "alchemy",
+		"name": "Alchemy",
+		"queueSlots": 1,
+		"recipes": [
+			"recipe_simple_tonic",
+			"recipe_mystic_cowl",
+			"recipe_ring_of_strength",
+			"recipe_ring_of_guard",
+			"recipe_ring_of_vigor",
+			"recipe_ring_of_swiftness",
+			"recipe_ring_of_precision",
+			"recipe_ring_of_bulwark",
+			"recipe_ring_of_ember",
+			"recipe_ring_of_mist",
+			"recipe_ring_of_lifebloom",
+			"recipe_ring_of_iron",
+			"recipe_ring_of_rage",
+			"recipe_ring_of_stoneskin",
+			"recipe_necklace_of_valor",
+			"recipe_necklace_of_fortitude",
+			"recipe_necklace_of_haste",
+			"recipe_necklace_of_wisdom",
+			"recipe_necklace_of_guardian",
+			"recipe_necklace_of_berserk",
+			"recipe_necklace_of_shadows",
+			"recipe_amulet_of_iron",
+			"recipe_amulet_of_dawn",
+			"recipe_amulet_of_thorns",
+			"recipe_amulet_of_tides"
+		],
+		"locked": true
+	}
+]
